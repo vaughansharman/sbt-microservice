@@ -2,7 +2,7 @@
 
 SBT_BOOT_DIR=${HOME}/.sbt/boot/
 
-VERSION=`grep "versionApp =" project/HmrcBuild.scala | awk '{print $4}' | sed -e 's/^"//'  -e 's/"$//'`
+VERSION=`grep "versionApp =" project/PluginBuild.scala | awk '{print $4}' | sed -e 's/^"//'  -e 's/"$//'`
 
 if [[ $VERSION == *SNAPSHOT* ]]
 then
