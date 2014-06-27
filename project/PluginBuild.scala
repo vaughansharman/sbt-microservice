@@ -19,7 +19,7 @@ import Keys._
 object PluginBuild extends Build {
 
   val pluginName = "sbt-microservice"
-  val pluginVersion = "3.1.0"
+  val pluginVersion = "3.2.0-SNAPSHOT"
 
   lazy val root = Project(pluginName, base = file("."), settings = Project.defaultSettings ++ Seq(
 
